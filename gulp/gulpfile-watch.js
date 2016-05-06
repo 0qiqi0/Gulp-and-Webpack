@@ -23,6 +23,9 @@ gulp.task('default', function () {
             case 'changed':
 
                 break;
+            case 'deleted':
+
+                break;
             default:
                 break;
         }
