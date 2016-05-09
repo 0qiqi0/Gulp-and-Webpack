@@ -1,5 +1,5 @@
 function add (x, y) {
-    if(!y){
+    if(!y){ //排除y没传进来的情况
         y = 0;
     }
     //y || (y =0);

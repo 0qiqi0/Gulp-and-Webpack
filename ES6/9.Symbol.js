@@ -9,9 +9,9 @@ ele.y = 234;*/ //两个人用了ele属性会相互覆盖，symb解决了此问�
 let sybx =Symbol('subx');
 let syby =Symbol('suby');
 
-/*
-console.log(syb,syb2,syb == syb2);
-console.log(typeof syb,syb.toString() === syb2.toString())*/
+
+console.log(sybx,syby,sybx == syby);
+console.log(typeof sybx,sybx.toString() === syby.toString())
 let ele ={}
 
 ele[sybx]=123;
